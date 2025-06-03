@@ -8,6 +8,9 @@ import Index from "./pages/Index";
 import ParkingSpots from "./pages/ParkingSpots";
 import Users from "./pages/Users";
 import Subscriptions from "./pages/Subscriptions";
+import Insurance from "./pages/Insurance";
+import Accessories from "./pages/Accessories";
+import AdBanners from "./pages/AdBanners";
 import Wallet from "./pages/Wallet";
 import NotFound from "./pages/NotFound";
 
@@ -24,6 +27,9 @@ const App = () => (
           <Route path="/spots" element={<ParkingSpots />} />
           <Route path="/users" element={<Users />} />
           <Route path="/subscriptions" element={<Subscriptions />} />
+          <Route path="/insurance" element={<Insurance />} />
+          <Route path="/accessories" element={<Accessories />} />
+          <Route path="/ad-banners" element={<AdBanners />} />
           <Route path="/wallet" element={<Wallet />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

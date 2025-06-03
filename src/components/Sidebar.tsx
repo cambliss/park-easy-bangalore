@@ -1,7 +1,7 @@
 
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
-import { MapPin, Users, Wallet, Calendar } from 'lucide-react';
+import { MapPin, Users, Wallet, Calendar, Shield, ShoppingCart, Megaphone } from 'lucide-react';
 
 interface SidebarProps {
   className?: string;
@@ -12,6 +12,9 @@ const navigation = [
   { name: 'Parking Spots', href: '/spots', icon: MapPin },
   { name: 'Users', href: '/users', icon: Users },
   { name: 'Subscriptions', href: '/subscriptions', icon: Calendar },
+  { name: 'Insurance', href: '/insurance', icon: Shield },
+  { name: 'Accessories', href: '/accessories', icon: ShoppingCart },
+  { name: 'Ad Banners', href: '/ad-banners', icon: Megaphone },
   { name: 'Wallet', href: '/wallet', icon: Wallet },
 ];
 
