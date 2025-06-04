@@ -25,10 +25,18 @@ export function Sidebar({ className }: SidebarProps) {
     <div className={cn("bg-white border-r border-gray-200 w-64 min-h-screen", className)}>
       <div className="p-6">
         <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 bg-gradient-to-br from-parking-blue to-parking-green rounded-lg flex items-center justify-center">
-            <MapPin className="w-5 h-5 text-white" />
-          </div>
-          <h1 className="text-xl font-bold text-gray-900">ParkSmart</h1>
+<div className="flex items-center gap-3">
+  <img
+    src="https://www.camblissstudio.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcamera.ad0cd15f.png&w=1080&q=75"
+    alt="Cambliss Logo"
+    className="h-24 w-auto" // Increased height
+  />
+  <h5 className="text-m font-semibold text-gray-800">Cambliss Smart</h5>
+</div>
+
+
+
+
         </div>
       </div>
       
