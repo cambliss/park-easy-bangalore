@@ -33,11 +33,7 @@ export function Sidebar({ className }: SidebarProps) {
   />
   <h5 className="text-m font-semibold text-gray-800">Cambliss Smart</h5>
 </div>
-
-
-
-
-        </div>
+</div>
       </div>
       
       <nav className="px-4">
